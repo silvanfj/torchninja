@@ -1,9 +1,10 @@
 build
 dist
-pytorch_kerosene.egg-info/
+torchninja.egg-info/
 **/__pycache__/
 update.sh
 *.ipynb
 test/
 examples/
 !examples/mnist.py
+publish.sh

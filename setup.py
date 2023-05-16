@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
 
 setup(
     name='torchninja',
-    version='0.1.0',
+    version='0.1.2',
     author='Silvan Ferreira',
     author_email='silvanfj@gmail.com',
     description='Tools for training PyTorch models',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/silvaan/torchninja',
     packages=find_packages(),
     classifiers=[

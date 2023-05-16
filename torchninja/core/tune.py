@@ -1,6 +1,11 @@
 from itertools import product
 
 
+class Tune:
+    def __init__(self):
+        pass
+
+
 def params2str(params):
     output = '-'.join([f'{k}_{v}' for k, v in params.items()])
     output = output.replace('.', '').replace(',', '')
